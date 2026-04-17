@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+select a.firstname,a.lastname,b.city,b.state 
+From Person a LEFT JOIN Address b 
+ON a.personId = b.personId 
